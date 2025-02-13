@@ -2,21 +2,21 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Base Page Metadata, src/layouts/BaseLayout.astro
-export const BRAND_NAME = "AstroMelody";
-export const SITE_TITLE = "AstroMelody";
-export const SITE_DESCRIPTION = "An Astro Theme for Visual Storytelling";
+export const BRAND_NAME = "JP Cloud Tech";
+export const SITE_TITLE = "JP Cloud Tech";
+export const SITE_DESCRIPTION = "My cloud journey";
 export const LIGHT_THEME = 'corporate';
 export const DARK_THEME = 'halloween';
 
 // Tags Page Metadata, src/pages/tags/index.astro
-export const Tags_TITLE = "AstroMelody - All Tags";
+export const Tags_TITLE = "JP Cloud Tech - All Tags";
 export const Tags_DESCRIPTION =
-  "AstroMelody - All tags and the count of articles related to each tag";
+  "JP Cloud Tech - All tags and the count of articles related to each tag";
 
 // Tags Page Metadata, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
   return {
-    title: `All articles on '${tag}' tag in AstroMelody`,
+    title: `All articles on '${tag}' tag in JP Cloud Tech`,
     description: `Explore articles about ${tag} for different perspectives and in-depth analysis.`,
   };
 }
@@ -24,8 +24,8 @@ export function getTagMetadata(tag: string) {
 // Category Page Metadata, src/pages/category/[category]/[page].astro
 export function getCategoryMetadata(category: string) {
   return {
-    title: `All articles in '${category}' category in AstroMelody`,
-    description: `Browse all articles under the ${category} category in AstroMelody`,
+    title: `All articles in '${category}' category in JP Cloud Tech`,
+    description: `Browse all articles under the ${category} category in JP Cloud Tech`,
   };
 }
 
@@ -38,7 +38,7 @@ export const HeaderLinks = [
 
 // Footer Links, src/components/Footer.astro
 export const FooterLinks = [
-  { href: "/posts/core-concepts-concepts-why-astro/", title: "Astro" },
+  { href: "/about/", title: "About" },
   { href: "/posts/assets-guides-styling/", title: "Styling" },
   { href: "/tags/", title: "Tags" },
 ];
@@ -61,3 +61,7 @@ export const SocialLinks = [
 // Search Page Metadata, src/pages/search.astro
 export const SEARCH_PAGE_TITLE = `${SITE_TITLE} - Site Search`;
 export const SEARCH_PAGE_DESCRIPTION = `Search all content on ${SITE_TITLE}`;
+
+// About Page Metadata, src/pages/about.astro
+export const ABOUT_PAGE_TITLE = `${SITE_TITLE} - About`;
+export const ABOUT_PAGE_DESCRIPTION = `About me and ${SITE_TITLE}`;

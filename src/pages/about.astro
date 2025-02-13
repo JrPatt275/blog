@@ -1,0 +1,45 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import {
+  ABOUT_PAGE_TITLE,
+  ABOUT_PAGE_DESCRIPTION,
+  SITE_TITLE,
+} from "@consts";
+---
+
+<BaseLayout title={ABOUT_PAGE_TITLE} description={ABOUT_PAGE_DESCRIPTION}>
+  <main>
+    <section class="mx-auto w-full max-w-screen-2xl px-4 pb-32 md:px-6">
+      <div
+        class="mt-32 flex min-h-[500px] flex-col items-center justify-start pt-6"
+      >
+        <a href="/" class="mb-4 flex-none text-xl font-semibold">{SITE_TITLE}</a
+        >
+        <div
+          class="h-auto max-h-[900px] w-full max-w-[500px] overflow-y-auto md:w-[400px] lg:w-[500px]"
+        >
+          <p>
+            Hi, I'm James, a Cloud Infrastructure Engineer and veteran from London, and JP Cloud Tech is a personal blog for me to share my thoughts and experiences
+            while navigating the world of cloud computing.
+          </p>
+          <br/>
+          <p>
+            I joined the British Army at 18 and after 15 years of service, I decided to leave and pursue a career in IT, an industry I've been passionate about from a young age.
+            I previously studied software engineering at college but after so many years in the Army, despite a good level of base knowledge, I felt I needed to start from scratch and was fortunate enough to find work as a 2nd line support engineer.
+            The company I worked with were a Microsoft shop and had a small Azure estate, big enough to spark my interest, but not enough to satisfy my curiosity. I threw myself into learning everything I could about Azure and cloud computing in general,
+            spending many late nights reading docs, watching John Saville videos and putting things into practise both with labs and in my own tenant.
+          </p>
+          <br/>
+          <p>
+            Since then, I've been fortunate enough to work with some great people and companies, and have been able to learn a lot about Azure. I've worked on and delivered some great projects, and have found a love for automation and infrastructure as code.
+            I've also achieved a number of certifications, including AZ-104, 700 and 305, with many more on the horizon, as a solidify my experience at work.
+            I've also written countless scripts, both PowerShell and Python during my day job, which has re-ignited my love for coding, so I've been working on a few projects in my own time, this blog (Astro, React) being one of them,
+            as well as a .Net API and a React front end for a personal project.
+          </p>
+          <br/>
+          <p>
+            I hope you enjoy my blog and I'm always looking to learn more and improve my skills, so if you have any feedback or suggestions, please feel free to reach out to me on Twitter or LinkedIn.
+        </div>
+      </div>
+    </section>
+  </main>
