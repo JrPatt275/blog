@@ -30,16 +30,16 @@ export function getCategoryMetadata(category: string) {
 }
 
 // Header Links, src/components/Header.astro
+// { href: "/category/One/1/", title: "One" },
+// { href: "/category/Two/1/", title: "Two" },
+// { href: "/category/Three/1/", title: "Three" },
 export const HeaderLinks = [
-  { href: "/category/One/1/", title: "One" },
-  { href: "/category/Two/1/", title: "Two" },
-  { href: "/category/Three/1/", title: "Three" },
+  { href: "/", title: "No Categories yet"},
 ];
 
 // Footer Links, src/components/Footer.astro
 export const FooterLinks = [
   { href: "/about/", title: "About" },
-  { href: "/posts/assets-guides-styling/", title: "Styling" },
   { href: "/tags/", title: "Tags" },
 ];
 
@@ -47,14 +47,14 @@ export const FooterLinks = [
 export const SocialLinks = [
   { href: "/rss.xml", icon: "i-tabler-rss", label: "RSS" },
   {
-    href: "https://twitter.com/astrodotbuild",
-    icon: "i-tabler-brand-twitter",
-    label: "Twitter",
+    href: "https://bsky.app/profile/jrpatt275.bsky.social",
+    icon: "i-tabler-brand-bluesky",
+    label: "Bluesky",
   },
   {
-    href: "https://github.com/isooosi",
-    icon: "i-tabler-brand-github",
-    label: "GitHub",
+    href: "https://linkedin.com/in/james-r-patterson",
+    icon: "i-tabler-brand-linkedin",
+    label: "LinkedIn",
   },
 ];
 
