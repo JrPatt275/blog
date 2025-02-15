@@ -23,5 +23,8 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
+<<<<<<< HEAD
 # Obsidian files
+=======
+>>>>>>> ec5fe7c (Add new post on building scalable APIs with Azure Functions and update .gitignore)
 /src/content/posts/.obsidian
