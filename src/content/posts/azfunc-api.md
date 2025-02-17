@@ -16,8 +16,9 @@ tags:
   - Functions
 title: Building Scalable APIs with Azure Functions
 ---
-
+<div class="mx-auto">
 # Just a test title for now
+</div>
 
 I'm going to try to embed an image:
 
