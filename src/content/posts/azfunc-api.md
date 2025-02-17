@@ -17,6 +17,9 @@ tags:
 title: Building Scalable APIs with Azure Functions
 
 ---
+<div class="mx-auto">
+# Just a test title for now
+</div>
 <div style="text-align: center;">
   <h2>Title</h2>
 </div>
