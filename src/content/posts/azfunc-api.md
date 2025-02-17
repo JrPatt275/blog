@@ -16,15 +16,19 @@ tags:
   - Functions
 title: Building Scalable APIs with Azure Functions
 ---
-<div class="mx-auto">
-# Just a test title for now
-</div>
+
 <div style="text-align: center;">
-  <h2>Title</h2>
+  <h2>Hello, Azure</h2>
 </div>
 
-I'm going to try to embed an image:
+What better way to start a new blog than to recreate the age old "Hello, World!" on Azure?
 
-![astro](https://khetemi2m3dnxjgr.public.blob.vercel-storage.com/AppRoles-38dc9cgTkpPMgSktc4yYA1Kfb17UMa.png)
+This is part one of a three part series, in which we're going to:
+
+1) Create a To-Do list API, using Azure Functions and CosmosDB
+2) Deploy both the infrastructure and API, using Bicep and Azure DevOps pipelines
+3) Create a Web frontend for the API, framework TBC.
+
+
 
 
