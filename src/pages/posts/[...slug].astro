@@ -20,7 +20,7 @@ const { Content } = await render(post);
 
 <BaseLayout title={post.data.title} description={post.data.description}>
   <main>
-    <article class="prose max-w-none mx-auto dark:prose-invert">
+    <article class="prose mx-auto dark:prose-invert">
       <div class="prose-h1 text-center">
         <h1>{post.data.title}</h1>
       </div>
@@ -31,7 +31,7 @@ const { Content } = await render(post);
           )
         }
       </div>
-      <div>
+      <div class="prose max-w-none mx-auto dark:prose-invert">
         <Content />
       </div>
       <div class="flex gap-2 prose-a:no-underline">
