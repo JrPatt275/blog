@@ -24,7 +24,10 @@ pnpm-debug.log*
 .idea/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Obsidian files
 =======
 >>>>>>> ec5fe7c (Add new post on building scalable APIs with Azure Functions and update .gitignore)
+=======
+>>>>>>> de10d68a5b6a1940e5e1554395c2e00f988fd864
 /src/content/posts/.obsidian
