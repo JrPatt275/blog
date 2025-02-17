@@ -23,4 +23,4 @@ import { Image } from 'astro:assets';
 
 I'm going to try to embed an image:
 
-<Image src="https://khetemi2m3dnxjgr.public.blob.vercel-storage.com/AppRoles-38dc9cgTkpPMgSktc4yYA1Kfb17UMa.png" />
+![astro](https://khetemi2m3dnxjgr.public.blob.vercel-storage.com/AppRoles-38dc9cgTkpPMgSktc4yYA1Kfb17UMa.png)
