@@ -15,10 +15,6 @@ tags:
   - Azure
   - Functions
 title: Building Scalable APIs with Azure Functions
-<<<<<<< HEAD
-
-=======
->>>>>>> de10d68a5b6a1940e5e1554395c2e00f988fd864
 ---
 <div class="mx-auto">
 # Just a test title for now
