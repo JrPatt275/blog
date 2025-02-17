@@ -17,8 +17,6 @@ tags:
 title: Building Scalable APIs with Azure Functions
 ---
 
-import { Image } from 'astro:assets';
-
 # Just a test title for now
 
 I'm going to try to embed an image:
